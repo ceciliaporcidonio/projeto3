@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e3a324;
+    color: rgb(25, 255, 125);
+    text-align: center;
+    padding: 1em 0;
+}
+
+h2 {
+    color: rgb(0, 192, 80);
+    margin-bottom: 20px;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #e3a324; /* Bege */
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: rgb(0, 89, 37);
+}
+
+.card-text {
+    color: #555;
+}
+
+.btn-primary {
+    background-color: rgb(0, 192, 80);
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: rgb(0, 89, 37);
+}
+
+/* Estilos de responsividade */
+@media (min-width: 1024px) {
+    .col-lg-4 {
+        width: 33.3333%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .col-md-6 {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Estilização do formulário de contato */
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffffa0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact .form-label {
+    color: #555;
+}
+
+#contact .form-control {
+    border-radius: 4px;
+}
+
+#contact .btn-primary {
+    width: 100%;
+    padding: 10px;
+}
+
+/* Navbar custom styling */
+.navbar {
+    background-color: #d27716; /* Laranja */
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Melhorias visuais adicionais */
+.navbar-nav .nav-link:hover {
+    color: #ffcc80 !important; /* Cor mais clara ao passar o mouse */
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.9em;
+}
+
+footer {
+    background-color: #d27716; /* Cor de fundo do rodapé */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 40px;
+}

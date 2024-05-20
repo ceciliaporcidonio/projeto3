@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoção de Animais Abandonados</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Menu Responsivo -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Adoção Animal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#events">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carrossel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/AdobeStock_310190313.jpeg" class="d-block w-100" alt="Adote um animal">
+            </div>
+            <div class="carousel-item">
+                <img src="images/vira_latacorrendo-86d7fa10.jpg" class="d-block w-100" alt="Adote um animal">
+            </div>
+            <div class="carousel-item">
+                <img src="images/gato-sem-raca-INOVA-1024x683.webp" class="d-block w-100" alt="Adote um animal">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Sessão de Eventos -->
+    <section id="events" class="container mt-5">
+        <h2 class="text-center">Próximos Eventos</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="images/vira-lata.jpg" class="card-img-top" alt="Evento 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Feira de Adoção</h5>
+                        <p class="card-text">Venha conhecer nossos pets e adotar um novo amigo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="images/vacina_antirabica_dG.jpg" class="card-img-top" alt="Evento 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Campanha de Vacinação</h5>
+                        <p class="card-text">Traga seu pet para vacinar gratuitamente.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="images/Por-que-passeio-é-tão-importante.webp" class="card-img-top" alt="Evento 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Passeio com os Pets</h5>
+                        <p class="card-text">Participe de um passeio divertido com nossos animais.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sessão Menu -->
+    <section id="menu" class="container mt-5">
+        <h2 class="text-center">Nosso Menu</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="images/20131229_140736.webp" class="card-img-top" alt="Item 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Ração Premium</h5>
+                        <p class="card-text">A melhor alimentação para seu pet.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="images/brinquedos-para-pets.jpg" class="card-img-top" alt="Item 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Brinquedos Interativos</h5>
+                        <p class="card-text">Diversão garantida para seu pet.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="images/passeio-cachorro-5-.avif" class="card-img-top" alt="Item 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Acessórios de Passeio</h5>
+                        <p class="card-text">Tudo que você precisa para um passeio seguro.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sessão Contato -->
+    <section id="contact" class="container mt-5 mb-5">
+        <h2 class="text-center">Contato</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Telefone</label>
+                <input type="tel" class="form-control" id="phone" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Adoção Animal. Todos os direitos reservados.</p>
+        <p>Desenvolvido por <a href="#" class="text-white">XYZ</a></p>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
